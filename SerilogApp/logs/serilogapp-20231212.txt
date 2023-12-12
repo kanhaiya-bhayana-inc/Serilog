@@ -1,0 +1,24 @@
+2023-12-12 19:36:15.661 +05:30 [INF] Now listening on: https://localhost:7164
+2023-12-12 19:36:15.703 +05:30 [INF] Now listening on: http://localhost:5157
+2023-12-12 19:36:15.707 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-12 19:36:15.708 +05:30 [INF] Hosting environment: Development
+2023-12-12 19:36:15.708 +05:30 [INF] Content root path: C:\Users\Kanhaiya.Bhayana\source\repos\SerilogApp\SerilogApp
+2023-12-12 19:36:17.628 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - -
+2023-12-12 19:36:18.135 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - - - 200 - text/html;charset=utf-8 510.6721ms
+2023-12-12 19:36:18.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - -
+2023-12-12 19:36:18.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - -
+2023-12-12 19:36:18.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 22.4021ms
+2023-12-12 19:36:18.229 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.3450ms
+2023-12-12 19:36:18.346 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - -
+2023-12-12 19:36:18.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.2286ms
+2023-12-12 19:36:22.682 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7164/WeatherForecast - -
+2023-12-12 19:36:22.690 +05:30 [INF] Executing endpoint 'SerilogApp.Controllers.WeatherForecastController.Get (SerilogApp)'
+2023-12-12 19:36:22.710 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogApp.WeatherForecast] Get() on controller SerilogApp.Controllers.WeatherForecastController (SerilogApp).
+2023-12-12 19:36:22.767 +05:30 [INF] Executing action method SerilogApp.Controllers.WeatherForecastController.Get (SerilogApp) - Validation state: "Valid"
+2023-12-12 19:36:22.770 +05:30 [INF] Weather Forecasts => [{"Date":"2023-12-13","TemperatureC":20,"TemperatureF":67,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2023-12-14","TemperatureC":13,"TemperatureF":55,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2023-12-15","TemperatureC":-13,"TemperatureF":9,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2023-12-16","TemperatureC":20,"TemperatureF":67,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2023-12-17","TemperatureC":28,"TemperatureF":82,"Summary":"Mild","$type":"WeatherForecast"}]
+2023-12-12 19:36:22.784 +05:30 [INF] Executed action method SerilogApp.Controllers.WeatherForecastController.Get (SerilogApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.5656ms.
+2023-12-12 19:36:22.792 +05:30 [INF] Executing ObjectResult, writing value of type 'SerilogApp.WeatherForecast[]'.
+2023-12-12 19:36:22.807 +05:30 [INF] Executed action SerilogApp.Controllers.WeatherForecastController.Get (SerilogApp) in 93.5498ms
+2023-12-12 19:36:22.807 +05:30 [INF] Executed endpoint 'SerilogApp.Controllers.WeatherForecastController.Get (SerilogApp)'
+2023-12-12 19:36:22.809 +05:30 [INF] HTTP GET /WeatherForecast responded 200 in 121.2750 ms
+2023-12-12 19:36:22.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7164/WeatherForecast - - - 200 - application/json;+charset=utf-8 126.9015ms
